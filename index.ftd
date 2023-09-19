@@ -1,7 +1,7 @@
 -- import: fastn
 -- import: fastn/processors as pr
--- import: <user_name>.github.io/<repo_name>/assets
--- import: <user_name>.github.io/<repo_name>/colors
+-- import: sreejitaduttaa.github.io/fastn-challenge-5/assets
+-- import: sreejitaduttaa.github.io/fastn-challenge-5/colors
 -- import: fastn-community.github.io/color-doc/components as cp
 -- import: fastn-community.github.io/inter-typography as typo
 
@@ -19,13 +19,13 @@ name: default-colors
 
 
 -- cd.package: THEME
-name: `<repo_name>`
+name: Color-play
 logo: $assets.files.static.fastn-logo.svg
-subtitle: <repo_name> : Color Scheme
+subtitle: Color-play : Color Scheme
 colors: $colors-data
 types: $typo.types
-document-title: <repo_name>: fastn color scheme package
-document-description: <repo_name>: fastn color scheme package
+document-title: fastn-challenge-5: fastn color scheme package
+document-description: fastn-challenge-5: fastn color scheme package
 document-image: https://fastn.com/-/fastn.com/images/featured/cs/midnight-storm-cs-dark.png
 
 -- cp.components-pallete:
@@ -146,7 +146,7 @@ copyright: Copyright © 2023 - [FifthTry.com](https://www.fifthtry.com/)
 -- end: cp.components-pallete
 
 -- cd.color-scheme: 
-tagline: Adding warmth and energy to your designs with the `<repo_name>` color scheme
+tagline: Adding warmth and energy to your designs with the `fastn-challenge-5` color scheme
 
 -- cd.color-scheme.rightbar:
 
@@ -157,18 +157,18 @@ link: https://fastn.com/
 
 -- cd.title-with-link: Github Link
 icon: $assets.files.static.link-icon.svg
-link-text: github.com/<user_name>/<repo_name>
-link: https://github.com/<user_name>/<repo_name>
+link-text: github.com/sreejitaduttaa/fastn-challenge-5
+link: https://github.com/sreejitaduttaa/fastn-challenge-5
 
 -- cd.title-with-link: License Information
 icon: $assets.files.static.bsd-license-icon.svg
 link-text: BSD 3-Clause License
-link: https://github.com/<user_name>/<repo_name>/blob/main/LICENSE
+link: https://github.com/sreejitaduttaa/fastn-challenge-5/blob/main/LICENSE
 
 -- cd.title-with-link: Author Information
 icon: $assets.files.static.author-icon.svg
 link-text: Contributors
-link: https://github.com/<user_name>/<repo_name>/graphs/contributors
+link: https://github.com/sreejitaduttaa/fastn-challenge-5/graphs/contributors
 
 -- cd.title-with-link: Discord Channel 
 icon: $assets.files.static.discord-icon.svg
@@ -197,7 +197,7 @@ link: https://fastn.com/figma-to-fastn-cs/
 The colours we use in our designs can have a significant impact on the mood and
 feelings they inspire. The perfect colour palette may take your design to the
 next level, whether you're creating a website, app, or anything else. The
-`<repo_name>` colour scheme is ideal for designs that aim to portray strength,
+`fastn-challenge-5` colour scheme is ideal for designs that aim to portray strength,
 warmth, and growth.
 
 -- cb.code: Figma tokens json
@@ -232,7 +232,7 @@ To add color scheme to your [fastn](https://fastn.com/)
 [doc-site](https://fastn-community.github.io/doc-site/cs/). Edit your `FASTN.ftd` file and add
 color scheme dependency into it.
 
-In the below example, we are using <repo_name> color scheme.
+In the below example, we are using fastn-challenge-5 color scheme.
 
 Add color scheme dependency into your `FASTN.ftd` file as shown in below
 example:
@@ -240,24 +240,24 @@ example:
 -- cb.code:
 lang: ftd
 
-\-- fastn.dependency: <user_name>.github.io/<repo_name>
+\-- fastn.dependency: sreejitaduttaa.github.io/fastn-challenge-5
 
 -- cd.markdown:
 
 Now modify `FASTN/ds.ftd` module which is already added inside your `fastn`
 package.
 
-Import `<repo_name>` dependency into `FASTN/ds.ftd`
+Import `fastn-challenge-5` dependency into `FASTN/ds.ftd`
 
 -- cb.code:
 lang: ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: sreejitaduttaa.github.io/fastn-challenge-5
 
 -- cd.markdown:
 
 Change `-- component page` `colors` property `ftd.color-scheme colors:
-$ftd.default-colors` with `ftd.color-scheme colors: $<repo_name>.main`
+$ftd.default-colors` with `ftd.color-scheme colors: $fastn-challenge-5.main`
 
 replace this line of `FASTN/ds.ftd` file:
 
@@ -273,7 +273,7 @@ lang: ftd
 -- cb.code:
 lang: ftd
 
-\-- ftd.color-scheme color-scheme: $<repo_name>.main
+\-- ftd.color-scheme color-scheme: $fastn-challenge-5.main
 
 
 -- cd.markdown:
@@ -300,32 +300,32 @@ example:
 -- cb.code:
 lang: ftd
 
-\-- fastn.dependency: <user_name>.github.io/<repo_name>
+\-- fastn.dependency: sreejitaduttaa.github.io/fastn-challenge-5
 
 -- cd.markdown:
 
-Now modify `ftd` file and import `<repo_name>` into `ftd` file
+Now modify `ftd` file and import `fastn-challenge-5` into `ftd` file
 
 -- cb.code:
 lang: ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: sreejitaduttaa.github.io/fastn-challenge-5
 
 
 -- cd.markdown:
 
-Now add `$<repo_name>.main` to your component, as shown in below example:
+Now add `$fastn-challenge-5.main` to your component, as shown in below example:
 
 Copy below code snippet inside your `ftd` file, then deploy and test
 
 -- cb.code: 
 lang: ftd
 
-\-- example: This is example of types used from `<repo_name>`
+\-- example: This is example of types used from `fastn-challenge-5`
 
 \-- component example:
 caption title:
-ftd.color-scheme color-scheme: $<repo_name>.main
+ftd.color-scheme color-scheme: $fastn-challenge-5.main
 
 \-- ftd.text: $example.title
 role: $inherited.types.heading-hero
@@ -335,7 +335,7 @@ color: $inherited.colors.text
 
 -- cd.markdown:
 
-Enjoy the look and feel of your website using `<repo_name>` colour scheme.
+Enjoy the look and feel of your website using `fastn-challenge-5` colour scheme.
 
 -- end: cd.how-to-use-cs
 
