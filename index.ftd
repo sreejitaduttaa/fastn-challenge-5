@@ -19,9 +19,9 @@ name: default-colors
 
 
 -- cd.package: THEME
-name: `fastn-challenge-5`
+name: Color-play
 logo: $assets.files.static.fastn-logo.svg
-subtitle: fastn-challenge-5 : Color Scheme
+subtitle: Color-play : Color Scheme
 colors: $colors-data
 types: $typo.types
 document-title: fastn-challenge-5: fastn color scheme package
