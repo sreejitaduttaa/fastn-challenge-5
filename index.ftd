@@ -19,9 +19,9 @@ name: default-colors
 
 
 -- cd.package: THEME
-name: Color-play
+name: Brownie
 logo: $assets.files.static.fastn-logo.svg
-subtitle: Color-play : Color Scheme
+subtitle: Brownie : Color Scheme
 colors: $colors-data
 types: $typo.types
 document-title: fastn-challenge-5: fastn color scheme package
@@ -81,8 +81,8 @@ image: $assets.files.static.img.svg
 likes: 2,729 Like
 comments: 273 Comment
 avatar: $assets.files.static.image.svg
-name: Patrica AVA
-post: UI Designer
+name: Sreejita Dutta
+post: Web developer
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
@@ -103,8 +103,8 @@ image: $assets.files.static.img.svg
 likes: 2,729 Like
 comments: 273 Comment
 avatar: $assets.files.static.image.svg
-name: Patrica AVA
-post: UI Designer
+name: Sreejita Dutta
+post: Web developer
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
@@ -114,8 +114,8 @@ image: $assets.files.static.img.svg
 likes: 2,729 Like
 comments: 273 Comment
 avatar: $assets.files.static.image.svg
-name: Patrica AVA
-post: UI Designer
+name: Sreejita Dutta
+post: Web developer
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
@@ -125,8 +125,8 @@ image: $assets.files.static.img.svg
 likes: 2,729 Like
 comments: 273 Comment
 avatar: $assets.files.static.image.svg
-name: Patrica AVA
-post: UI Designer
+name: Sreejita Dutta
+post: Web developer
 
 Mauris ullamcorper tortor sed purus interdum, fermentum efficitur est dictu.
 
