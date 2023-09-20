@@ -1,4 +1,4 @@
-;; **** Change all colors given in below places and remove this line ****
+
 -- ftd.color base-:
 light: #faebd7
 dark: #240002
