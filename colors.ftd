@@ -1,23 +1,23 @@
 
 -- ftd.color base-:
-light: #faebd7
-dark: #240002
+light: #FFF8EA
+dark: #18181B
 
 -- ftd.color step-1-:
-light: #e3bc81
-dark: #550605
+light: #FFF8EA
+dark: #18181B
 
 -- ftd.color step-2-:
-light: #faad7b
-dark: #3e0e11
+light: #FFF8EA
+dark: #18181B
 
 -- ftd.color overlay-:
 light: rgba(0, 0, 0, 0.8)
 dark: rgba(0, 0, 0, 0.8)
 
 -- ftd.color code-:
-light: #eaeaea
-dark: #2B303B
+light: #FFF8EA
+dark: #18181B
 
 -- ftd.background-colors background-:
 base: $base-
@@ -27,64 +27,64 @@ overlay: $overlay-
 code: $code-
 
 -- ftd.color border-:
-light: #222222
-dark: #FFFFFF
+light: #594545
+dark: #594545
 
 -- ftd.color border-strong-:
-light: #D9D9D9
-dark: #3e0306
+light: #594545
+dark: #594545
 
 -- ftd.color text-:
-light: #707070
-dark: #D9D9D9
+light: #594545
+dark: #FFF8EA
 
 -- ftd.color text-strong-:
 light: #333333
-dark: #FFFFFF
+dark: #FFF8EA
 
 -- ftd.color shadow-:
-light: #6f0100
-dark: #6f0100
+light: #9E7676
+dark: #9E7676
 
 -- ftd.color scrim-:
-light: #393939
-dark: #393939
+light: #9E7676
+dark: #9E7676
 
 -- ftd.color cta-primary-base-:
-light: #a53006
-dark: #a53006
+light: #815B5B
+dark: #9E7676
 
 -- ftd.color cta-primary-hover-:
-light: #8c2702
-dark: #8c2702
+light: #594545
+dark: #594545
 
 -- ftd.color cta-primary-pressed-:
-light: #611c03
-dark: #611c03
+light: #594545
+dark: #594545
 
 -- ftd.color cta-primary-disabled-:
-light: #faad7b
-dark: #faad7b
+light: #A75D5D
+dark: #A75D5D
 
 -- ftd.color cta-primary-focused-:
-light: #611c03
-dark: #611c03
+light: #594545
+dark: #594545
 
 -- ftd.color cta-primary-border-:
-light: #a53006
-dark: #a53006
+light: #594545
+dark: #594545
 
 -- ftd.color cta-primary-text-:
-light: #feffff
-dark: #feffff
+light: #FFF8EA
+dark: #FFF8EA
 
 -- ftd.color cta-primary-text-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.color cta-primary-border-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.cta-colors cta-primary-:
 base: $cta-primary-base-
@@ -98,40 +98,40 @@ text-disabled: $cta-primary-text-disabled-
 border-disabled: $cta-primary-border-disabled-
 
 -- ftd.color cta-secondary-base-:
-light: #EF8435
-dark: #EF8435
+light: #FFC3A1
+dark: #FFC3A1
 
 -- ftd.color cta-secondary-hover-:
-light: #D77730
-dark: #D77730
+light: #D3756B
+dark: #D3756B
 
 -- ftd.color cta-secondary-pressed-:
-light: #BF6A2A
-dark: #BF6A2A
+light: #A75D5D
+dark: #A75D5D
 
 -- ftd.color cta-secondary-disabled-:
-light: #FAD9C0
-dark: #FAD9C0
+light: #A75D5D
+dark: #A75D5D
 
 -- ftd.color cta-secondary-focused-:
-light: #B36328
-dark: #B36328
+light: #A75D5D
+dark: #A75D5D
 
 -- ftd.color cta-secondary-border-:
-light: #F3A063
-dark: #F3A063
+light: #A75D5D
+dark: #A75D5D
 
 -- ftd.color cta-secondary-text-:
-light: #FFFFFF
-dark: #FFFFFF
+light: #FFC3A1
+dark: #FFC3A1
 
 -- ftd.color cta-secondary-text-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.color cta-secondary-border-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.cta-colors cta-secondary-:
 base: $cta-secondary-base-
@@ -173,12 +173,12 @@ light: #333333
 dark: #333333
 
 -- ftd.color cta-tertiary-text-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.color cta-tertiary-border-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.cta-colors cta-tertiary-:
 base: $cta-tertiary-base-
@@ -220,12 +220,12 @@ light: #FFFBFE
 dark: #1C1B1F
 
 -- ftd.color cta-danger-text-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.color cta-danger-border-disabled-:
-light: #65b693
-dark: #65b693
+light: #E4E4D0
+dark: #E4E4D0
 
 -- ftd.cta-colors cta-danger-:
 base: $cta-danger-base-
@@ -239,8 +239,8 @@ text-disabled: $cta-danger-text-disabled-
 border-disabled: $cta-danger-border-disabled-
 
 -- ftd.color accent-primary-:
-light: #a53006
-dark: #a53006
+light: #A75D5D
+dark: #A75D5D
 
 -- ftd.color accent-secondary-:
 light: #EF8435
